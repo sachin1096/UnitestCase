@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+
 def validate_user(username, minlen):
   if minlen < 1:
     raise ValueError("minlen must be at least 1")
