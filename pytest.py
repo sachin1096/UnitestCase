@@ -1,5 +1,6 @@
 import pytest
 
+
 class Fruit:
     def __init__(self, name):
         self.name = name
@@ -7,6 +8,7 @@ class Fruit:
 
     def cube(self):
         self.cubed = True
+
 
 class FruitSalad:
     def __init__(self, *fruit_bowl):
